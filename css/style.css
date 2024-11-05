@@ -560,6 +560,13 @@
     letter-spacing: 4px;
 }
 
+.service .about-img .telemedicine{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /*** About End ***/
 
 /*** Feature Start ***/
