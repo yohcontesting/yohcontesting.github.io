@@ -88,9 +88,9 @@ $(document).ready(function($) {
 		});
 
 		$('.nonloop-block-11').owlCarousel({
-	    center: true,
+	    center: false,
 	    items: 1,
-	    loop: false,
+	    loop: true,
 			stagePadding: 0,
 	    margin: 30,
 	    nav: true,

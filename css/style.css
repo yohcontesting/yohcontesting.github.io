@@ -424,6 +424,11 @@ h1, h2, h3, h4, h5,
   background: #8b6b36;
   padding: 50px;
   color: #000; 
+  background-image: url(../images/about-2.JPG);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .block-48 .block-48-text-1 {
@@ -891,7 +896,7 @@ textarea.form-control {
 
 .footer {
   background: #404040;
-  padding: 8em 0;
+  padding: 1em 0;
   color: #fff; 
 }
 
@@ -2093,6 +2098,28 @@ color: #8b6b36 !important;
   bottom: 130px; 
 }
 
+.hero {
+  background-image: url(../images/hero.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(10px);
+  -webkit-filter: blur(8px);
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
 .block-31 .owl-nav .owl-prev, .block-31 .owl-nav .owl-next {
   color: #fff;
   font-size: 20px;
@@ -2725,3 +2752,4 @@ color: #8b6b36 !important;
     stroke-dashoffset: -136px; 
   } 
 }
+
