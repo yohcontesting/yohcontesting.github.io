@@ -883,7 +883,7 @@ textarea.form-control {
 }
 
 .site-section {
-  padding: 4em 0; 
+  padding: 1em 0; 
 }
 
 .border-top {
@@ -2094,8 +2094,9 @@ color: #8b6b36 !important;
 
 .block-31 .owl-nav {
   position: absolute;
-  right: 50px;
+  right: 20px;
   bottom: 130px; 
+  /* max-height: 350px !important; */
 }
 
 .hero {
