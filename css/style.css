@@ -244,6 +244,12 @@ h1, h2, h3, h4, h5,
     "Segoe UI Emoji", "Segoe UI Symbol"; 
 }
 
+@media (max-width: 991.98px) {
+  .navbar-brand {
+    font-size: 20px; 
+  } 
+}
+
 .bg-image, .ftco-cover {
   background-size: cover;
   background-repeat: no-repeat; 
@@ -429,6 +435,20 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 991.98px) {
+  .block-48 {
+    align-items: center;
+    background: #8b6b36;
+    padding: 50px;
+    color: #000; 
+    background-image: url(../images/logos/main-logo.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 .block-48 .block-48-text-1 {
