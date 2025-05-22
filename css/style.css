@@ -2774,3 +2774,8 @@ color: #8b6b36 !important;
   } 
 }
 
+/* @media (max-width: 991.98px) {
+  .mobile-about {
+    display: block; 
+  } 
+} */
