@@ -3144,14 +3144,14 @@
 
  .btn-primary {
      color: #fff;
-     background-color: #9f9796;
-     border-color: #9f9796
+     background-color: #8dc1c6;
+     border-color: #8dc1c6
  }
 
  .btn-primary:hover {
      color: #29539e;
-     background-color: #d2e7ea;
-     border-color: #d2e7ea
+     background-color: #9f9796;
+     border-color: #9f9796
  }
 
  .btn-check:focus+.btn-primary,
