@@ -82,6 +82,11 @@
             '<i class="bi bi-arrow-right"></i>'
         ]
     });
-    
+
+
+    // Generate Current Year
+    var currentYear = new Date().getFullYear();
+    $('#currentYear').text(currentYear);
+
 })(jQuery);
 
