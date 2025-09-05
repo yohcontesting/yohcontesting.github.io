@@ -242,32 +242,38 @@ body{
 
 .fillers-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/fillers-banner.jpg) center center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .botox-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/botox-banner.jpg) center center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .facials-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/facials-banner.jpg) center center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .microneedling-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/microneedling-banner.jpg) center center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .chemical-peel-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/chemical-peels-banner.jpg) center center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .page-header {
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banner.jpg) center center no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 991.98px) {
+    .fillers-header, .botox-header, .facials-header, .microneedling-header, .chemical-peel-header {
+        background-size: cover;
+    }
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
