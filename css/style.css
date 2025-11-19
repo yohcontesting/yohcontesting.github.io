@@ -242,27 +242,27 @@ body{
 
 .fillers-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/fillers-banner.jpg) center center no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .botox-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/botox-banner.jpg) center center no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .facials-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/facials-banner.jpg) center center no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .microneedling-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/microneedling-banner.jpg) center center no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .chemical-peel-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/chemical-peels-banner.jpg) center center no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .page-header {
