@@ -5,7 +5,7 @@ const basePath = isProd ? `/venus-nextjs` : "";
 
 const nextConfig = {
   output: "export",
-  basePath: "/",
+  basePath: "/yohcontesting.github.io",
   assetPrefix: basePath,
   images: {
     unoptimized: true,
