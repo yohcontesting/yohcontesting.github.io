@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 
 const isProd = process.env.NODE_ENV === "production";
-const basePath = isProd ? `/venus-nextjs` : "";
+const basePath = isProd ? `/bpr-engineering-lab` : "";
 
 const nextConfig = {
   output: "export",
-  basePath: "/yohcontesting.github.io",
+  basePath: "/yohcontesting.github.io/bpr-engineering-lab",
   assetPrefix: basePath,
   images: {
     unoptimized: true,
